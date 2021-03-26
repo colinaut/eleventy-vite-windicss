@@ -1,5 +1,7 @@
 import "vite/dynamic-import-polyfill";
+import 'virtual:windi.css'
 import "./css/index.css"
+
 
 function init() {
   // A demo: add an element to the document, then announce it

@@ -12,16 +12,20 @@
     {% endif %}
 </head>
 <body>
-    <header>
-        <a href="/">Eleventy with Vite</a>
+    <header class="bg-flamingo-700 ">
+        <div class="max-w-hero p-base mx-auto">
+            <a href="/" class="text-lg text-white font-bold">Eleventy with Vite</a>
+        </div>
     </header>
-    <main>
+    <main class="max-w-content px-base py-lg mx-auto prose">
         {{ content | safe }}
     </main>
-    <footer>
-        <a href="https://github.com/fpapado/eleventy-with-vite">
-            Source on GitHub
-        </a>
+    <footer class="bg-flamingo-900">
+        <div class="max-w-hero mx-auto p-base text-white">
+            <a href="https://github.com/colinaut/eleventy-vite-windicss">
+                Source on GitHub
+            </a>
+        </div>
     </footer>
     {#  
         We must split development  and production scripts
