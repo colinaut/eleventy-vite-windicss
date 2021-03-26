@@ -1,6 +1,6 @@
 # Eleventy with Vite and Windicss
 
-This is a quick fork of (Eleventy with Vite)[https://github.com/fpapado/eleventy-with-vite]. The only change is that I added Windicss. It works and is blazing fast!
+This is a quick fork of [Eleventy with Vite](https://github.com/fpapado/eleventy-with-vite). The only change is that I added Windicss. It works and is blazing fast!
 
 The vite-plugin-windicss is set to scan html, md, and njk files but you can add any other files by adjusting the options in the vite.config.js. Includes a handful of theme defaults in the tailwind.config.js file. 
 
